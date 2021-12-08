@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  margin: 10;
+}
+/*img {
+  width: 100%;
+  height: auto;
+  display: block;
+}*/
+body {
+  background-color: #d0beb2;
+}
+
+/*===========links/menu start===========*/
+header {
+  position: sticky;
+  top: 0;
+  background-color: transparent;
+}
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 60px;
+}
+.links {
+  margin-left: 1000px;
+  display: flex;
+  flex-flow: wrap;
+  list-style: none;
+}
+.links li {
+  display: inline;
+  margin: 20px;
+}
+.links a {
+  font-family: ;
+  font-size: 150%;
+  text-decoration: none;
+  font-weight: 700;
+  color: #000000;
+}
+.links a:hover {
+  color: #0808075e;
+}
+.logo1 {
+  margin-top: -50px;
+}
+/*==============links slut===========*/
+/*==============splashbillede og h1 overskrifter========*/
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+/*.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}*/
+
+.vertical-line {
+  border-left: 4px solid #000000;
+  display: block;
+  height: 100px;
+  margin: 0 auto;
+  width: 1px;
+}
