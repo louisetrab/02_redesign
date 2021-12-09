@@ -11,6 +11,16 @@
   font-size: 0.7rem;
 }
 
+#first_section {
+  grid-column: 1/4;
+  width: 100%;
+  min-height: 100vh;
+  text-align: left;
+  background-image: url(bilder/test.bilde.jpg);
+  background-size: cover;
+  background-position: 60% 25%;
+}
+
 @media (min-width: 600px) {
   #third_section .section_wrapper {
     display: grid;
