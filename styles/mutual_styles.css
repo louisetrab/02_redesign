@@ -1,3 +1,20 @@
+/* ----------Links---------- */
+a:link {
+  color: aliceblue;
+}
+
+a:visited {
+  color: blue;
+}
+
+a:hover {
+  color: brown;
+}
+
+a:active {
+  color: cornflowerblue;
+}
+
 /* ----------Footer---------- */
 footer {
   display: grid;
