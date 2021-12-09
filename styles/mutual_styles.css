@@ -1,0 +1,29 @@
+/* ----------Footer---------- */
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  background-color: ;
+  color: ;
+  font-family: ;
+  font-size: ;
+  padding-bottom: 10px;
+}
+
+.footer_shop {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.footer_web {
+  grid-column: 4;
+  grid-row: 1;
+}
+
+.footer_bestilling {
+  grid-column: 3;
+  grid-row: 2;
+}
+
+main {
+}
