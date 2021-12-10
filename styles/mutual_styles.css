@@ -1,11 +1,12 @@
 /* ----------Links---------- */
-a:link {
+a {
   color: aliceblue;
+  text-decoration: none;
 }
 
-a:visited {
+/*a:visited {
   color: blue;
-}
+}*/
 
 a:hover {
   color: brown;
