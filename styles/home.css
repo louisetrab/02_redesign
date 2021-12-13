@@ -85,7 +85,6 @@ video {
 
 #second_section .section_wrapper {
   border: 1px solid black;
-  
   display: grid;
   grid-template-columns: 0.5fr 2fr 1fr 1fr;
   background-color: #e5d7ca;
@@ -95,11 +94,10 @@ video {
   width: 70%;
   display: grid;
   grid-column: 4;
-  grid-row: 2;
 }
 
 #second_section .div1 {
-  grid-column: 2;
+  grid-column: 2/3;
 }
 #second_section h2 {
   display: grid;
