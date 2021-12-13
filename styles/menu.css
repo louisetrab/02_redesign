@@ -29,51 +29,39 @@ img {
     grid-column: 2;
   }
 
-  .section_four .section_wrapper {
+  #section_four .section_wrapper {
     display: grid;
     gap: 30px;
     grid-template-columns: 1fr 1fr;
     padding: 1.5rem;
   }
-  .section_four .col_text {
+  #section_four .col_text {
     display: grid;
     gap: 10px;
     grid-template-columns: 1fr 1fr;
   }
 
-  /*.section_four .section_wrapper {
+  #section_five .section_wrapper {
     display: grid;
     gap: 30px;
     grid-template-columns: 1fr 1fr;
     padding: 1.5rem;
   }
-  .section_four .col_text {
+  #section_five .col_text {
     display: grid;
     gap: 10px;
     grid-template-columns: 1fr 1fr;
   }
 
-  .section_five .section_wrapper {
+  #section_six .section_wrapper {
     display: grid;
     gap: 30px;
     grid-template-columns: 1fr 1fr;
     padding: 1.5rem;
   }
-  .section_five .col_text {
+  #section_six .col_text {
     display: grid;
     gap: 10px;
     grid-template-columns: 1fr 1fr;
   }
-
-  .section_six .section_wrapper {
-    display: grid;
-    gap: 30px;
-    grid-template-columns: 1fr 1fr;
-    padding: 1.5rem;
-  }
-  .section_six .col_text {
-    display: grid;
-    gap: 10px;
-    grid-template-columns: 1fr 1fr;
-  } */
 }
