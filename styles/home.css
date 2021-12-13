@@ -87,13 +87,14 @@ video {
   border: 1px solid black;
   display: grid;
   grid-template-columns: 0.5fr 2fr 1fr 1fr;
-  background-color: #e5d7ca;
+  background-color: rgba(252, 237, 216, 0.719);
 }
 
-#logo {
-  width: 70%;
+#logo1 {
+  width: 50%;
   display: grid;
   grid-column: 4;
+  padding-bottom: 50px;
 }
 
 #second_section .div1 {
@@ -102,27 +103,56 @@ video {
 #second_section h2 {
   display: grid;
   grid-column: 2;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 /*=========== third section=================*/
+#third_section {
+  padding-top: 100px;
+}
 #third_section .section_wrapper {
   border: 1px solid black;
   display: grid;
-  grid-template-columns: 0.5fr 2fr 1fr 1fr;
-  background-color: #e5d7ca;
+  grid-template-columns: 0.5fr 1fr 2fr 0.5fr;
+  background-color: rgba(252, 237, 216, 0.719);
 }
 
-#logo {
-  width: 70%;
+#logo2 {
+  width: 40%;
   display: grid;
-  grid-column: 4;
-  grid-row: 2;
-}
-
-#third_section .div2 {
   grid-column: 2;
+  grid-row: 2;
+  padding-bottom: 50px;
+}
+#third_section .div2 {
+  grid-column: 3;
 }
 #third_section h2 {
   display: grid;
+  grid-column: 3;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+/*=========== fourth section=================*/
+#fourth_section {
+  padding-top: 100px;
+}
+#fourth_section .section_wrapper {
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  background-color: rgba(252, 237, 216, 0.719);
+}
+#fourth_section .div3 {
   grid-column: 2;
+}
+#fourth_section h2 {
+  display: grid;
+  grid-column: 2;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+body {
+  background-color: #73261fc5;
 }
