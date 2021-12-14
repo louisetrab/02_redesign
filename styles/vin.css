@@ -11,7 +11,7 @@
 }
 
 #first_section .section_wrapper h1 {
-  z-index: -1;
+  z-index: 1;
   place-self: center;
   grid-area: 1/1;
   font-size: 100px;
