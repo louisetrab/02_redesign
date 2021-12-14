@@ -75,6 +75,10 @@ header a {
     color: white;
     background: hsla(334, 18%, 31%, 0.494);
   }
+
+  .logo {
+    width: 45%;
+  }
 }
 
 /* ----------Links---------- */
@@ -162,8 +166,4 @@ h1 {
 h2 {
   font-size: 1.5rem;
   color: #5f021f;
-}
-
-.logo {
-  width: 45%;
 }
