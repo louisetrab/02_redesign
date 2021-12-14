@@ -87,10 +87,9 @@ video {
   padding-top: 10%;
 }
 #second_section .section_wrapper {
-  border: 1px solid black;
   display: grid;
   grid-template-columns: 0.5fr 2fr 0.5fr 2fr;
-  background-color: #cfbba0;
+  background-color: rgba(216, 194, 168, 0.733);
 }
 
 #logo1 {
@@ -115,10 +114,9 @@ video {
   padding-top: 10%;
 }
 #third_section .section_wrapper {
-  border: 1px solid black;
   display: grid;
   grid-template-columns: 0.5fr 1fr 2fr 0.5fr;
-  background-color: #cfbba0;
+  background-color: rgba(216, 194, 168, 0.733);
 }
 
 #logo2 {
@@ -142,10 +140,9 @@ video {
   padding-top: 10%;
 }
 #fourth_section .section_wrapper {
-  border: 1px solid black;
   display: grid;
   grid-template-columns: 0.5fr 2fr 1fr 1fr;
-  background-color: #cfbba0;
+  background-color: rgba(216, 194, 168, 0.733);
 }
 #fourth_section .div3 {
   grid-column: 2;
