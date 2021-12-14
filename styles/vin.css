@@ -14,6 +14,8 @@
   z-index: 1;
   place-self: center;
   grid-area: 1/1;
+  font-size: 100px;
+  color: black;
 }
 
 @media (min-width: 500px) {
@@ -62,7 +64,7 @@
 
 @media (min-width: 600px) {
   #fourth_section .overskift_section4 {
-    gap: 1px;
+    text-align: center;
   }
 
   #fourth_section .section_wrapper {
@@ -79,8 +81,8 @@
 }
 
 @media (min-width: 600px) {
-  #fifth_section {
-    padding: 50px;
+  #fifth_section .overskift_section5 {
+    text-align: center;
   }
 
   #fifth_section .section_wrapper {
@@ -98,4 +100,34 @@
 
 img {
   max-width: 100%;
+}
+
+.links a:hover {
+  color: black;
+  text-decoration: underline;
+}
+header {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: linear-gradient(hsl(26, 21%, 46%), transparent);
+  padding: 1rem;
+  gap: 20px;
+}
+header a {
+  color: white;
+}
+.links {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  font-family: "Vollkorn", serif;
+  font-size: 1.2rem;
+  padding-right: 50px;
 }
