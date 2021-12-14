@@ -1,4 +1,4 @@
-@media (min-width: 500px) {
+@media (min-width: 600px) {
   #first_section .section_wrapper {
     display: grid;
     height: 100vh;
@@ -20,7 +20,7 @@
   }
 }
 
-@media (min-width: 500px) {
+@media (min-width: 600px) {
   #first_section .section_wrapper {
     height: auto;
     aspect-ratio: 16/9;
@@ -122,7 +122,7 @@ img {
   max-width: 100%;
 }
 
-.links a:hover {
+/* .links a:hover {
   color: black;
   text-decoration: underline;
 }
@@ -151,3 +151,4 @@ header a {
   font-size: 1.2rem;
   padding-right: 50px;
 }
+ */
