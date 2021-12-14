@@ -6,13 +6,62 @@ img {
   width: 100%;
 }
 
-/*===========links/menu start===========*/
+@media (max-width: 600px) {
+  #videoBG {
+    position: fixed;
+    z-index: -1;
+    width: 100%;
+    height: auto;
+  }
+  h1 {
+    display: none;
+  }
 
-html {
-  scroll-behavior: smooth;
-  scroll-padding-top: 60px;
+  #åbningstider {
+    display: none;
+  }
 }
-.links a:hover {
+
+/*===========Mediaqueries video===========*/
+@media (min-aspect-ratio: 16/9) {
+  #videoBG {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-aspect-ration: 16/9) {
+  #videoBG {
+    width: auto;
+    height: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  #videoBG {
+    display: none;
+  }
+  body {
+    background: url("/bilder/vinhanen_bottles.jpg");
+    background-size: cover;
+  }
+}
+/*===========Desktop version===========*/
+/*===========links/menu start===========*/
+@media (min-width: 600px) {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 60px;
+  }
+
+  #overskrifter a:hover {
+    text-decoration: underline;
+  }
+
+  .headline {
+    display: none;
+  }
+  /* .links a:hover {
   color: black;
   text-decoration: underline;
 }
@@ -40,167 +89,174 @@ header a {
   font-family: "Vollkorn", serif;
   font-size: 1.2rem;
   padding-right: 50px;
-}
+} */
 
-/*==============links slut===========*/
-/*==============splashbillede/video========*/
-video {
-  max-width: 100%;
-}
-#textdiv video {
-  height: 100%;
-  object-fit: cover;
-  z-index: -1;
-}
-#textdiv {
-  display: grid;
-  place-items: center;
-  height: 100vh;
-}
-#textdiv > * {
-  grid-area: 1/1;
-}
-#overskrifter {
-  display: flex;
-  gap: 20px;
-  color: white;
-  font-size: 2rem;
-  font-family: "Vollkorn", serif;
-}
-#textdiv a {
-  margin-right: 20px;
-  color: white;
-  text-decoration: none;
-  font-size: 3rem;
-}
-#nav {
-  display: flex;
-}
+  /*==============links slut===========*/
+  /*==============splashbillede/video========*/
+  video {
+    max-width: 100%;
+  }
 
-#åbningstider {
-  padding-top: 12%; /*!!!!!!*/
-  color: white;
-  font-family: "Vollkorn", serif;
-}
-/*=========== second section=============*/
-#second_section {
-  padding-top: 10%;
-}
-#second_section .section_wrapper {
-  display: grid;
-  grid-template-columns: 0.5fr 2fr 0.5fr 2fr;
-  background-color: #5c404c7e;
-}
+  #textdiv video {
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
 
-#logo1 {
-  width: 20%;
-  display: grid;
-  grid-column: 4;
-  padding-bottom: 50px;
-}
+  #textdiv {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+  }
 
-#second_section .div1 {
-  grid-column: 2/3;
-}
-#second_section h2 {
-  display: grid;
-  grid-column: 2;
-  padding-bottom: 20px;
-  padding-top: 20px;
-}
+  #textdiv > * {
+    grid-area: 1/1;
+  }
 
-/*=========== third section=================*/
-#third_section {
-  padding-top: 10%;
-}
-#third_section .section_wrapper {
-  display: grid;
-  grid-template-columns: 0.5fr 1fr 2fr 0.5fr;
-  background-color: rgba(216, 194, 168, 0.733);
-}
+  #overskrifter {
+    display: flex;
+    gap: 20px;
+    color: white;
+    font-size: 2rem;
+    font-family: "Vollkorn", serif;
+  }
 
-#logo2 {
-  width: 40%;
-  display: grid;
-  grid-column: 2;
-  grid-row: 2;
-  padding-bottom: 50px;
-}
-#third_section .div2 {
-  grid-column: 3;
-}
-#third_section h2 {
-  display: grid;
-  grid-column: 3;
-  padding-bottom: 20px;
-  padding-top: 20px;
-}
-/*=========== fourth section=================*/
-#fourth_section {
-  padding-top: 10%;
-}
-#fourth_section .section_wrapper {
-  display: grid;
-  grid-template-columns: 0.5fr 2fr 1fr 1fr;
-  background-color: #e7a69277;
-}
-#fourth_section .div3 {
-  grid-column: 2;
-}
-#fourth_section h2 {
-  display: grid;
-  grid-column: 2;
-  padding-bottom: 20px;
-  padding-top: 20px;
-}
-/*=========== fifth section=================*/
-#fifth_section {
-  padding-top: 10%;
-}
-#fifth_section .section_wrapper {
-  display: grid;
-  grid-template-columns: 0.5fr 2fr 2fr 0.5fr;
-  background-color: rgba(216, 194, 168, 0.733);
-}
-#fifth_section .div4 {
-  grid-column: 3;
-}
-#fifth_section h2 {
-  display: grid;
-  grid-column: 3;
-  padding-bottom: 20px;
-  padding-top: 20px;
-}
-#italic {
-  font-style: italic;
-}
-.vennerlinks {
-  grid-column: 2;
-  margin: auto;
-  grid-row: 2;
-}
-#friends {
-  width: 60%;
-  padding-left: 20%;
-  padding-bottom: 5%;
-}
+  #textdiv a {
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 3rem;
+  }
 
-/*=========== sixth section=================*/
-#sixth_section {
-  padding-top: 10%;
-  padding-bottom: 10%;
-}
-#sixth_section .section_wrapper {
-  display: grid;
-  grid-template-columns: 0.5fr 2fr 1fr 1fr;
-  background-color: #3a3d5a7e;
-}
-#sixth_section .div5 {
-  grid-column: 2;
-}
-#sixth_section h2 {
-  display: grid;
-  grid-column: 2;
-  padding-bottom: 20px;
-  padding-top: 20px;
+  #nav {
+    display: flex;
+  }
+
+  #åbningstider {
+    padding-top: 12%; /*!!!!!!*/
+    color: white;
+    font-family: "Vollkorn", serif;
+  }
+  /*=========== second section=============*/
+  #second_section {
+    padding-top: 10%;
+  }
+  #second_section .section_wrapper {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 0.5fr 2fr;
+    background-color: #5c404c7e;
+  }
+
+  #logo1 {
+    width: 20%;
+    display: grid;
+    grid-column: 4;
+    padding-bottom: 50px;
+  }
+
+  #second_section .div1 {
+    grid-column: 2/3;
+  }
+  #second_section h2 {
+    display: grid;
+    grid-column: 2;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+
+  /*=========== third section=================*/
+  #third_section {
+    padding-top: 10%;
+  }
+  #third_section .section_wrapper {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 2fr 0.5fr;
+    background-color: rgba(216, 194, 168, 0.733);
+  }
+
+  #logo2 {
+    width: 40%;
+    display: grid;
+    grid-column: 2;
+    grid-row: 2;
+    padding-bottom: 50px;
+  }
+  #third_section .div2 {
+    grid-column: 3;
+  }
+  #third_section h2 {
+    display: grid;
+    grid-column: 3;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  /*=========== fourth section=================*/
+  #fourth_section {
+    padding-top: 10%;
+  }
+  #fourth_section .section_wrapper {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr;
+    background-color: #e7a69277;
+  }
+  #fourth_section .div3 {
+    grid-column: 2;
+  }
+  #fourth_section h2 {
+    display: grid;
+    grid-column: 2;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  /*=========== fifth section=================*/
+  #fifth_section {
+    padding-top: 10%;
+  }
+  #fifth_section .section_wrapper {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 2fr 0.5fr;
+    background-color: rgba(216, 194, 168, 0.733);
+  }
+  #fifth_section .div4 {
+    grid-column: 3;
+  }
+  #fifth_section h2 {
+    display: grid;
+    grid-column: 3;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  #italic {
+    font-style: italic;
+  }
+  .vennerlinks {
+    grid-column: 2;
+    margin: auto;
+    grid-row: 2;
+  }
+  #friends {
+    width: 60%;
+    padding-left: 20%;
+    padding-bottom: 5%;
+  }
+
+  /*=========== sixth section=================*/
+  #sixth_section {
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+  #sixth_section .section_wrapper {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr;
+    background-color: #3a3d5a7e;
+  }
+  #sixth_section .div5 {
+    grid-column: 2;
+  }
+  #sixth_section h2 {
+    display: grid;
+    grid-column: 2;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
 }
