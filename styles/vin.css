@@ -35,14 +35,18 @@
     gap: 20px;
     padding: 50px;
   }
+
+  .liten_text p {
+    font-size: 0.7rem;
+  }
 }
 
-.liten_text p {
-  font-size: 0.7rem;
-}
-
-.mellom_overskift {
-  padding: 50px;
+@media (min-width: 600px) {
+  .mellom_overskift {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px;
+  }
 }
 
 @media (min-width: 600px) {
