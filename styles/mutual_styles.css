@@ -7,9 +7,9 @@ body {
   background-image: url(../vinhanen_hane_yellow_bg.png);
   background-repeat: no-repeat;
   background-size: auto 100%;
-  background-position: -20% 130px;
+  background-position: 5% 130px;
   background-attachment: fixed;
-  background-color: #e5b6b6;
+  background-color: #cfbba0;
 }
 /*a:visited {
   color: blue;

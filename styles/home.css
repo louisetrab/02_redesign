@@ -83,16 +83,18 @@ video {
   font-family: "Vollkorn", serif;
 }
 /*=========== second section=============*/
-
+#second_section {
+  padding-top: 10%;
+}
 #second_section .section_wrapper {
-  /*border: 1px solid black;*/
+  border: 1px solid black;
   display: grid;
-  grid-template-columns: 0.5fr 2fr 1fr 1fr;
-  /*background-color: rgba(252, 237, 216, 0.719);*/
+  grid-template-columns: 0.5fr 2fr 0.5fr 2fr;
+  background-color: #cfbba0;
 }
 
 #logo1 {
-  width: 50%;
+  width: 20%;
   display: grid;
   grid-column: 4;
   padding-bottom: 50px;
@@ -110,13 +112,13 @@ video {
 
 /*=========== third section=================*/
 #third_section {
-  padding-top: 70px;
+  padding-top: 10%;
 }
 #third_section .section_wrapper {
-  /*border: 1px solid black;*/
+  border: 1px solid black;
   display: grid;
   grid-template-columns: 0.5fr 1fr 2fr 0.5fr;
-  /*background-color: rgba(252, 237, 216, 0.719);*/
+  background-color: #cfbba0;
 }
 
 #logo2 {
@@ -137,13 +139,13 @@ video {
 }
 /*=========== fourth section=================*/
 #fourth_section {
-  padding-top: 70px;
+  padding-top: 10%;
 }
 #fourth_section .section_wrapper {
-  /*border: 1px solid black;*/
+  border: 1px solid black;
   display: grid;
   grid-template-columns: 0.5fr 2fr 1fr 1fr;
-  /*background-color: rgba(252, 237, 216, 0.719);*/
+  background-color: #cfbba0;
 }
 #fourth_section .div3 {
   grid-column: 2;
