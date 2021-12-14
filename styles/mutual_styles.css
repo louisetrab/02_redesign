@@ -36,10 +36,12 @@ footer {
   display: grid;
   grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
   grid-template-rows: 1fr;
-  background-color: ;
-  color: ;
-  font-family: ;
-  font-size: ;
+  /*
+  background-color:
+  color:
+  font-family:
+  font-size:
+  */
   padding-bottom: 10px;
 }
 
@@ -58,10 +60,16 @@ footer {
   grid-row: 2;
 }
 
-main {
-}
-
 /*Tekst*/
 p {
   font-family: "Vollkorn", serif;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 24px;
 }
