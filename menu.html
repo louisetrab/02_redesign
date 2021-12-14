@@ -7,18 +7,35 @@
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/mutual_styles.css" />
     <link rel="stylesheet" href="styles/menu.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Vollkorn&display=swap"
+      rel="stylesheet"
+    />
     <title>Vinhanen</title>
   </head>
   <body>
-    <header>
+    <header class="banner">
+      <div class="logo">
+        <a href="/index.html">
+          <img src="vinhanen_vsb.png" alt="logo" />
+        </a>
+      </div>
+      <button class="toggle-btn">Menu</button>
       <nav>
-        <ul></ul>
+        <ul class="links">
+          <li><a href="shop.html">SHOP</a></li>
+          <li><a href="historie.html">OM OS</a></li>
+        </ul>
       </nav>
     </header>
     <main>
-      <h1>Mad</h1>
       <section id="section_one">
         <div class="section_wrapper">
+          <h1 id="h1">Mad</h1>
           <img src="mad1.PNG" alt="" />
         </div>
       </section>
@@ -136,5 +153,6 @@
         <!--Indsæt link -->
       </section>
     </footer>
+    <script src="index.js"></script>
   </body>
 </html>
