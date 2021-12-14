@@ -31,7 +31,6 @@ header a {
 
 .banner ul {
   list-style: none;
-  padding: 0;
 }
 
 /*===========Burgermenu===========*/
@@ -158,7 +157,7 @@ p {
 }
 
 h1 {
-  /* font-size: 1.8rem; */
+  /* font-size: 1.8rem; ---- ændrede bjælkerne mellem links*/
   color: white;
   font-family: "Vollkorn", serif;
 }

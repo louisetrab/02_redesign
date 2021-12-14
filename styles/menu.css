@@ -10,15 +10,6 @@ img {
 
 @media (min-width: 600px) {
   /*===========Section_one===========*/
-  .section_wrapper h1 {
-    z-index: 1;
-    place-self: center;
-    grid-area: 1/1;
-    font-size: 100px;
-    color: black;
-  }
-  /*===========Section_two===========*/
-
   #section_one .section_wrapper {
     display: grid;
     height: 100vh;
@@ -38,9 +29,10 @@ img {
     place-self: center;
     grid-area: 1/1;
     color: white;
-    font-size: 4rem;
+    font-size: 6rem;
   }
 
+  /*===========Section_two===========*/
   #section_two .section_wrapper {
     display: grid;
     grid-column-gap: 20px;
