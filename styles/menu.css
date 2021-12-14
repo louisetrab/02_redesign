@@ -9,6 +9,14 @@ img {
 /*===========Desktop Version===========*/
 
 @media (min-width: 600px) {
+  /*===========Section_one===========*/
+  .section_wrapper h1 {
+    z-index: 1;
+    place-self: center;
+    grid-area: 1/1;
+    font-size: 100px;
+    color: black;
+  }
   /*===========Section_two===========*/
 
   #section_one .section_wrapper {
