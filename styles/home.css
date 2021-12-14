@@ -142,12 +142,63 @@ video {
 #fourth_section .section_wrapper {
   display: grid;
   grid-template-columns: 0.5fr 2fr 1fr 1fr;
-  background-color: rgba(216, 194, 168, 0.733);
+  background-color: #5c404c7e;
 }
 #fourth_section .div3 {
   grid-column: 2;
 }
 #fourth_section h2 {
+  display: grid;
+  grid-column: 2;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+/*=========== fifth section=================*/
+#fifth_section {
+  padding-top: 10%;
+}
+#fifth_section .section_wrapper {
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 2fr 0.5fr;
+  background-color: rgba(216, 194, 168, 0.733);
+}
+#fifth_section .div4 {
+  grid-column: 3;
+}
+#fifth_section h2 {
+  display: grid;
+  grid-column: 3;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+#italic {
+  font-style: italic;
+}
+.vennerlinks {
+  grid-column: 2;
+  margin: auto;
+  grid-row: 2;
+}
+#friends {
+  width: 60%;
+  padding-left: 20%;
+  padding-bottom: 5%;
+}
+
+/*=========== sixth section=================*/
+#sixth_section {
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+#sixth_section .section_wrapper {
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 1fr 1fr;
+  background-color: #3a3d5a7e;
+}
+#sixth_section .div5 {
+  grid-column: 2;
+}
+#sixth_section h2 {
   display: grid;
   grid-column: 2;
   padding-bottom: 20px;
