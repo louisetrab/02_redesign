@@ -55,6 +55,10 @@
     padding: 50px;
   }
 
+  #third_section .col_bilde {
+    text-align: center;
+  }
+
   #third_section .col_text {
     display: grid;
     gap: 10px;
@@ -73,6 +77,11 @@
     grid-template-columns: 1fr 1fr;
     padding: 50px;
   }
+
+  #fourth_section .col_bilde {
+    text-align: center;
+  }
+
   #fourth_section .col_text {
     display: grid;
     gap: 10px;
@@ -91,6 +100,11 @@
     grid-template-columns: 1fr 1fr;
     padding: 50px;
   }
+
+  #fifth_section .col_bilde {
+    text-align: center;
+  }
+
   #fifth_section .col_text {
     display: grid;
     gap: 10px;
