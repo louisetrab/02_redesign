@@ -2,6 +2,8 @@
   #first_section .section_wrapper {
     display: grid;
     height: 100vh;
+    height: auto;
+    aspect-ratio: 16/9;
   }
 
   #first_section .section_wrapper img {
@@ -17,13 +19,6 @@
     grid-area: 1/1;
     color: white;
     font-size: 4rem;
-  }
-}
-
-@media (min-width: 500px) {
-  #first_section .section_wrapper {
-    height: auto;
-    aspect-ratio: 16/9;
   }
 }
 
@@ -122,11 +117,11 @@ img {
   max-width: 100%;
 }
 
-.links a:hover {
+/* .links a:hover {
   color: black;
   text-decoration: underline;
-}
-header {
+} */
+/* header {
   display: flex;
   flex-flow: wrap;
   justify-content: space-between;
@@ -138,11 +133,11 @@ header {
   background: linear-gradient(hsl(26, 21%, 46%), transparent);
   padding: 1rem;
   gap: 20px;
-}
-header a {
+} */
+/* header a {
   color: white;
-}
-.links {
+} */
+/* .links {
   padding: 0;
   list-style: none;
   display: flex;
@@ -150,4 +145,4 @@ header a {
   font-family: "Vollkorn", serif;
   font-size: 1.2rem;
   padding-right: 50px;
-}
+} */
