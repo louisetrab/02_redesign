@@ -6,6 +6,68 @@ img {
   width: 100%;
 }
 
+@media (max-width: 600px) {
+  #section_one .section_wrapper {
+    padding-top: 12px;
+  }
+
+  #section_two .section_wrapper {
+    padding-top: 12px;
+  }
+
+  #section_three {
+    padding-top: 10px;
+  }
+
+  #section_three .section_wrapper {
+    padding-top: 10px;
+  }
+
+  #section_three .col_text {
+    padding-top: 10px;
+  }
+
+  #section_four {
+    padding-top: 10px;
+  }
+
+  #section_four .section_wrapper {
+    padding-top: 10px;
+  }
+
+  #section_four .col_text {
+    padding-top: 10px;
+  }
+
+  #section_five {
+    padding-top: 10px;
+  }
+
+  #section_five .section_wrapper {
+    padding-top: 10px;
+  }
+
+  #section_five .col_text {
+    padding-top: 10px;
+  }
+
+  #section_six {
+    padding-top: 20px;
+  }
+
+  #section_six .section_wrapper {
+    padding-top: 5px;
+  }
+
+  #section_six .col_text {
+    padding-top: 10px;
+  }
+
+  footer {
+    padding-top: 50px;
+  }
+}
+
 /*===========Desktop Version===========*/
 
 @media (min-width: 600px) {
@@ -33,10 +95,14 @@ img {
   }
 
   /*===========Section_two===========*/
+  #section_two {
+    padding-top: 10px;
+  }
   #section_two .section_wrapper {
     display: grid;
     grid-column-gap: 20px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-top: 20px;
   }
 
   #section_two .col_text {
@@ -53,13 +119,14 @@ img {
 
   /*===========Section_three===========*/
   #section_three {
-    padding-top: 20px;
+    padding-top: 40px;
   }
 
   #section_three .section_wrapper {
     display: grid;
     gap: 100px;
     grid-template-columns: 1fr 1fr;
+    padding-top: 20px;
   }
   #section_three .col_text {
     display: grid;
@@ -69,13 +136,14 @@ img {
 
   /*===========Section_four===========*/
   #section_four {
-    padding-top: 20px;
+    padding-top: 40px;
   }
 
   #section_four .section_wrapper {
     display: grid;
     gap: 30px;
     grid-template-columns: 1fr 1fr;
+    padding-top: 20px;
   }
   #section_four .col_text {
     display: grid;
@@ -85,12 +153,13 @@ img {
 
   /*===========Section_five===========*/
   #section_five {
-    padding-top: 20px;
+    padding-top: 40px;
   }
   #section_five .section_wrapper {
     display: grid;
     gap: 30px;
     grid-template-columns: 1fr 1fr;
+    padding-top: 20px;
   }
   #section_five .col_text {
     display: grid;
@@ -100,13 +169,14 @@ img {
 
   /*===========Section_six===========*/
   #section_six {
-    padding-top: 20px;
+    padding-top: 40px;
   }
 
   #section_six .section_wrapper {
     display: grid;
     gap: 30px;
     grid-template-columns: 1fr 1fr;
+    padding-top: 20px;
   }
   #section_six .col_text {
     display: grid;
