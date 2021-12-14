@@ -1,3 +1,85 @@
+/*===========links/menu start===========*/
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 60px;
+}
+
+header {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: linear-gradient(hsl(26, 21%, 46%), transparent);
+  padding: 1rem;
+  gap: 20px;
+}
+header a {
+  color: white;
+}
+
+.banner {
+  padding: 0.1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.banner ul {
+  list-style: none;
+}
+
+/*===========Burgermenu===========*/
+.toggle-btn {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .toggle-btn {
+    background: transparent;
+    border: none;
+    display: block;
+    /* width: 44px; */
+    height: 44px;
+    padding: 0.25rem;
+    cursor: pointer;
+    color: white;
+    font-family: "Vollkorn", serif;
+    font-size: 1rem;
+    padding-right: 2.8rem;
+  }
+
+  nav {
+    display: none;
+  }
+
+  nav.shown {
+    border-top: 1px solid #000;
+    padding-top: 1rem;
+    display: flex;
+    flex: 1 1 100%;
+    flex-flow: column;
+  }
+
+  nav ul {
+    display: flex;
+    flex-flow: column;
+  }
+
+  .links {
+    color: white;
+    background: hsla(334, 18%, 31%, 0.494);
+  }
+
+  .logo {
+    width: 45%;
+  }
+}
+
 /* ----------Links---------- */
 a {
   color: aliceblue;
@@ -11,12 +93,19 @@ body {
   background-attachment: fixed;
   background-color: #dbc7af;
 }
-/*a:visited {
-  color: blue;
-}*/
+
+.links {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  font-family: "Vollkorn", serif;
+  font-size: 1.2rem;
+  padding-right: 50px;
+}
 
 a:hover {
-  color: brown;
+  color: #5f021f;
   text-decoration: underline;
 }
 
@@ -26,7 +115,6 @@ a:active {
 h2 {
   font-size: 3rem;
   font-family: "Vollkorn", serif;
-  color: rgb(107, 44, 44);
 }
 p {
   font-size: 1.3rem;
@@ -43,7 +131,8 @@ footer {
   font-family:
   font-size:
   */
-  padding-bottom: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 .footer_shop {
@@ -61,16 +150,19 @@ footer {
   grid-row: 2;
 }
 
-/*Tekst*/
+/* ----------Tekst---------- */
 p {
   font-family: "Vollkorn", serif;
   font-size: 16px;
 }
 
 h1 {
-  font-size: 30px;
+  /* font-size: 1.8rem; ---- ændrede bjælkerne mellem links*/
+  color: white;
+  font-family: "Vollkorn", serif;
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 1.5rem;
+  color: #5f021f;
 }
