@@ -43,7 +43,7 @@ header a {
     background: transparent;
     border: none;
     display: block;
-    width: 44px;
+    /* width: 44px; */
     height: 44px;
     padding: 0.25rem;
     cursor: pointer;
@@ -73,6 +73,10 @@ header a {
   .links {
     color: white;
     background: hsla(334, 18%, 31%, 0.494);
+  }
+
+  .logo {
+    width: 45%;
   }
 }
 
@@ -161,8 +165,4 @@ h1 {
 h2 {
   font-size: 1.5rem;
   color: #5f021f;
-}
-
-.logo {
-  width: 45%;
 }
