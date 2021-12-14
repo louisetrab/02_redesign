@@ -3,7 +3,14 @@ a {
   color: aliceblue;
   text-decoration: none;
 }
-
+body {
+  background-image: url(vinhanen_hane_yellow_bg.png);
+  background-repeat: no-repeat;
+  background-size: 58%;
+  background-position: -30% 130px;
+  background-attachment: fixed;
+  background-color: #fefaf3;
+}
 /*a:visited {
   color: blue;
 }*/
