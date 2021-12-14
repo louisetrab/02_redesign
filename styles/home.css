@@ -68,9 +68,11 @@ img {
     background-size: cover;
   }
 } */
+
 /*===========Desktop version===========*/
+
 /*===========links/menu start===========*/
-@media (min-width: 600px) {
+@media /*(orientation: portrait) or*/ (min-width: 600px) {
   html {
     scroll-behavior: smooth;
     scroll-padding-top: 60px;
