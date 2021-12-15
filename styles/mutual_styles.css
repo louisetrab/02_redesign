@@ -114,10 +114,12 @@ a:active {
 h2 {
   font-size: 3rem;
   font-family: "Vollkorn", serif;
+  text-align: center;
 }
 p {
   font-size: 1.3rem;
   font-family: "Open Sans", sans-serif;
+  text-align: center;
 }
 /* ----------Footer---------- */
 footer {
