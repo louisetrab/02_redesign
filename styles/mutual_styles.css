@@ -21,7 +21,6 @@ header {
 header a {
   color: white;
 }
-
 .banner {
   padding: 0.1rem;
   display: flex;
@@ -86,7 +85,7 @@ a {
   text-decoration: none;
 }
 body {
-  background-image: url(../vinhanen_hane_yellow_bg.png);
+  background-image: url(../bilder/vamndmærkerigtig.png);
   background-repeat: no-repeat;
   background-size: auto 100%;
   background-position: 5% 130px;
@@ -115,10 +114,12 @@ a:active {
 h2 {
   font-size: 3rem;
   font-family: "Vollkorn", serif;
+  text-align: center;
 }
 p {
   font-size: 1.3rem;
   font-family: "Open Sans", sans-serif;
+  text-align: center;
 }
 /* ----------Footer---------- */
 footer {

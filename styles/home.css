@@ -181,12 +181,14 @@ header a {
 
   #second_section .div1 {
     grid-column: 2/3;
+    text-align: center;
   }
   #second_section h2 {
     display: grid;
     grid-column: 2;
     padding-bottom: 20px;
     padding-top: 20px;
+    text-align: center;
   }
 
   /*=========== third section=================*/
@@ -208,12 +210,14 @@ header a {
   }
   #third_section .div2 {
     grid-column: 3;
+    text-align: center;
   }
   #third_section h2 {
     display: grid;
     grid-column: 3;
     padding-bottom: 20px;
     padding-top: 20px;
+    text-align: center;
   }
   /*=========== fourth section=================*/
   #fourth_section {
@@ -226,12 +230,14 @@ header a {
   }
   #fourth_section .div3 {
     grid-column: 2;
+    text-align: center;
   }
   #fourth_section h2 {
     display: grid;
     grid-column: 2;
     padding-bottom: 20px;
     padding-top: 20px;
+    text-align: center;
   }
   /*=========== fifth section=================*/
   #fifth_section {
@@ -244,12 +250,14 @@ header a {
   }
   #fifth_section .div4 {
     grid-column: 3;
+    text-align: center;
   }
   #fifth_section h2 {
     display: grid;
     grid-column: 3;
     padding-bottom: 20px;
     padding-top: 20px;
+    text-align: center;
   }
   #italic {
     font-style: italic;
@@ -277,11 +285,13 @@ header a {
   }
   #sixth_section .div5 {
     grid-column: 2;
+    text-align: center;
   }
   #sixth_section h2 {
     display: grid;
     grid-column: 2;
     padding-bottom: 20px;
     padding-top: 20px;
+    text-align: center;
   }
 }
