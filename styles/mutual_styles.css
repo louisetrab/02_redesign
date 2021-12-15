@@ -148,6 +148,7 @@ footer {
 .footer_bestilling {
   grid-column: 3;
   grid-row: 2;
+  text-align: center;
 }
 
 /* ----------Tekst---------- */
