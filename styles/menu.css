@@ -176,7 +176,7 @@ img {
   #section_five .col_text {
     display: grid;
     gap: 10px;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
 
   #platter {
@@ -199,7 +199,7 @@ img {
   #section_six .col_text {
     display: grid;
     gap: 30px;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     margin: auto;
   }
   #tilbehør {
